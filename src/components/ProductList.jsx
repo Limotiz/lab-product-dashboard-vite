@@ -1,7 +1,7 @@
 import React from 'react';
 import ProductCard from './ProductCard';
 
-const ProductList = ({ products }) => {
+const ProductList = ({ products, onRemove }) => {
   
    // Checking  if the product list is empty
   if (products.length === 0) {
@@ -12,7 +12,7 @@ const ProductList = ({ products }) => {
     <div>
       {/* Rendering a ProductCard for eah product*/}
       {products.map((product) => (
-        <ProductCard key={product.id} product={product} />
+        <ProductCard key={product.id} product={product}  onRemove={onRemove}/>
       ))}
     </div>
   );
