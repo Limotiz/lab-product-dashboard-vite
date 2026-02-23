@@ -125,4 +125,4 @@ git push origin feature/newFeatures
 
 ## Project Link
 
-https://github.com/Limotiz/lab-product-dashboard-vite/tree/main/src
+https://github.com/Limotiz/lab-product-dashboard-vite
